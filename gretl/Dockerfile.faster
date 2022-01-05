@@ -1,5 +1,7 @@
 FROM bellsoft/liberica-openjdk-debian:8
 
+RUN apt-get update && apt-get upgrade
+
 CMD ["gradle"]
 
 ENV GRADLE_HOME /opt/gradle
