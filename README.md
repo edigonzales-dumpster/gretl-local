@@ -7,7 +7,7 @@ Das Image weist den gleichen Stand wie das "normale" GRETL-Image auf. Der Buildp
 
 Sinnigerweise sollte dieser Buildprozess im Original-Repo integriert werden, damit die Dependencies nicht nachgeführt werden müssen und die Versionsnummer (des Images) gleich sind. 
 
-Mit `Dockerfile.faster` scheint es auch schneller zu starten. Es ist ein leicht angepasstes Dockfile des official Gradle Dockerfile.
+Mit `Dockerfile.faster` scheint es auch schneller zu starten. Es ist ein leicht angepasstes Dockerfile des official Gradle Dockerfile.
 
 ```
 ./start-gretl.sh --docker-image sogis/gretl-local:latest [--docker-network NETWORK] --job-directory $PWD/jobname [taskName...] [--option-name...]
@@ -16,3 +16,5 @@ Mit `Dockerfile.faster` scheint es auch schneller zu starten. Es ist ein leicht 
 ## links
 - https://stackoverflow.com/questions/62750603/github-actions-trigger-another-action-after-one-action-is-completed
 - https://github.community/t/depend-on-another-workflow/16311
+- ...
+- ...
